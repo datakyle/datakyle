@@ -25,7 +25,11 @@ By day I work in healthcare finance and analytics. By night I ship side projects
 <!-- PROJECTS:START -->
 | Started | Project | Description |
 | ------- | ------- | ----------- |
-| · | [miniracer](https://github.com/datakyle/miniracer) | Filled in automatically on the first run |
-| · | [5 in 3](https://github.com/datakyle/5-in-3) | Filled in automatically on the first run |
-| · | [life cal](https://github.com/datakyle/life-cal) | Filled in automatically on the first run |
+| Oct 2026 | [Coach OS](https://github.com/datakyle/Coach-OS) ([site](https://datakyle.github.io/Coach-OS/)) | personal highschool bball coaching program |
+| Oct 2026 | [miniracer](https://github.com/datakyle/miniracer) | daily racing game |
+| Oct 2026 | [5 in 3](https://github.com/datakyle/5-in-3) | 5 second game to play with friends |
+| Oct 2026 | [life cal](https://github.com/datakyle/life-cal) | personal version of the life calendar visualizer in weeks |
+| Aug 2026 | [PB Gen](https://github.com/datakyle/PB-Gen) | Pickleball Americano Style Generator |
+| Jun 2026 | [world cup fantasy](https://github.com/datakyle/world-cup-fantasy) | Details soon |
+| Sep 2024 | [PBTournamentScheduler](https://github.com/datakyle/PBTournamentScheduler) | Details soon |
 <!-- PROJECTS:END -->
