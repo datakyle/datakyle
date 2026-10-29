@@ -2,10 +2,9 @@
 
 Hey 👋 I build little games and tools that get people in the same room, off their phones, and laughing. Party games, trivia nights, fantasy leagues, daily word puzzles. If it makes a group hang easier or more fun, I'm probably tinkering with it.
 
-By day I work in healthcare finance and analytics. By night I ship side projects with AI as the copilot. **People are the point. AI is the tool.**
+I ship side projects with AI as the copilot. **People are the point. AI is the tool.**
 
 [![Website](https://img.shields.io/badge/Website-kylebautista.com-0d74ce?style=for-the-badge)](https://kylebautista.com)
-[![No Fluff](https://img.shields.io/badge/No%20Fluff-nofluffhealthcare.com-1d1d1f?style=for-the-badge)](https://nofluffhealthcare.com)
 
 <img src="https://github-readme-stats.vercel.app/api?username=datakyle&show_icons=true&hide_border=true&bg_color=f5f5f7&title_color=1d1d1f&text_color=1d1d1f&icon_color=0d74ce" alt="Kyle's GitHub stats" height="160" />
 
