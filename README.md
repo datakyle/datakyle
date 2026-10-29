@@ -30,6 +30,6 @@ By day I work in healthcare finance and analytics. By night I ship side projects
 | Oct 2026 | [5 in 3](https://github.com/datakyle/5-in-3) | 5 second game to play with friends |
 | Oct 2026 | [life cal](https://github.com/datakyle/life-cal) | personal version of the life calendar visualizer in weeks |
 | Aug 2026 | [PB Gen](https://github.com/datakyle/PB-Gen) | Pickleball Americano Style Generator |
-| Jun 2026 | [world cup fantasy](https://github.com/datakyle/world-cup-fantasy) ([site](wc-fantasy-2026.vercel.app)) | My first project on getting a group together: a World Cup 2026 fantasy league, built from scratch |
+| Jun 2026 | [world cup fantasy](https://github.com/datakyle/world-cup-fantasy) ([site](https://wc-fantasy-2026.vercel.app)) | My first project on getting a group together: a World Cup 2026 fantasy league, built from scratch |
 | Sep 2024 | [PBTournamentScheduler](https://github.com/datakyle/PBTournamentScheduler) | Details soon |
 <!-- PROJECTS:END -->
