@@ -24,6 +24,7 @@ By day I work in healthcare finance and analytics. By night I ship side projects
 <!-- PROJECTS:START -->
 | Started | Project | Description |
 | ------- | ------- | ----------- |
+| Oct 2026 | [tempo](https://github.com/datakyle/tempo) | a retro styled pomodoro timer for my work setup |
 | Oct 2026 | [Coach OS](https://github.com/datakyle/Coach-OS) ([site](https://datakyle.github.io/Coach-OS/)) | personal highschool bball coaching program |
 | Oct 2026 | [miniracer](https://github.com/datakyle/miniracer) | daily racing game |
 | Oct 2026 | [5 in 3](https://github.com/datakyle/5-in-3) | 5 second game to play with friends |
