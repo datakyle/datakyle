@@ -64,8 +64,11 @@ def row(repo):
     started = datetime.strptime(repo["created_at"][:10], "%Y-%m-%d").strftime("%b %Y")
     pretty = repo["name"].replace("-", " ").replace("_", " ")
     name = f"[{pretty}]({repo['html_url']})"
-    if repo.get("homepage"):
-        name += f" ([site]({repo['homepage']}))"
+    site = (repo.get("homepage") or "").strip()
+    if site:
+        if not site.startswith(("http://", "https://")):
+            site = "https://" + site
+        name += f" ([site]({site}))"
     return f"| {started} | {name} | {clean(repo.get('description')) or 'Details soon'} |"
 
 
