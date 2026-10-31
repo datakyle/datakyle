@@ -7,8 +7,10 @@ Rules:
 - Public, non-fork, non-archived repos you own are listed, newest first.
 - The profile repo itself (datakyle/datakyle) is skipped.
 - Add the topic `hide` to any repo you want left off the list.
-- The repo's "About" description becomes the Description column.
-- The repo's "Website" field (homepage) shows up as a (site) link.
+- projects.json (optional) overrides a repo's display name, one-liner,
+  play link and "learned" line. Anything not in it falls back to the
+  repo's "About" description and "Website" field, so new repos still
+  show up on their own.
 """
 
 import json
@@ -24,6 +26,19 @@ README = os.environ.get("README_PATH", "README.md")
 START = "<!-- PROJECTS:START -->"
 END = "<!-- PROJECTS:END -->"
 HIDE_TOPICS = {"hide", "hide-from-profile"}
+OVERRIDES_PATH = os.environ.get("OVERRIDES_PATH", "projects.json")
+
+
+def load_overrides():
+    try:
+        with open(OVERRIDES_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        return {}
+    return {k: v for k, v in data.items() if not k.startswith("_")}
+
+
+OVERRIDES = load_overrides()
 
 
 def fetch_repos():
@@ -61,19 +76,23 @@ def clean(text):
 
 
 def row(repo):
-    started = datetime.strptime(repo["created_at"][:10], "%Y-%m-%d").strftime("%b %Y")
-    pretty = repo["name"].replace("-", " ").replace("_", " ")
-    name = f"[{pretty}]({repo['html_url']})"
-    site = (repo.get("homepage") or "").strip()
-    if site:
-        if not site.startswith(("http://", "https://")):
-            site = "https://" + site
-        name += f" ([site]({site}))"
-    return f"| {started} | {name} | {clean(repo.get('description')) or 'Details soon'} |"
+    o = OVERRIDES.get(repo["name"], {})
+    pretty = o.get("name") or repo["name"].replace("-", " ").replace("_", " ")
+    line = clean(o.get("line") or repo.get("description")) or "Details soon"
+    learned = clean(o.get("learned"))
+    if learned:
+        line += f"<br><sub><i>What I learned: {learned}</i></sub>"
+    site = (o.get("play") or repo.get("homepage") or "").strip()
+    if site and not site.startswith(("http://", "https://")):
+        site = "https://" + site
+    play = f"[Play]({site})" if site else ""
+    code = f"[Code]({repo['html_url']})"
+    links = " · ".join(x for x in (play, code) if x)
+    return f"| **{clean(pretty)}** | {line} | {links} |"
 
 
 def build_table(repos):
-    lines = ["| Started | Project | Description |", "| ------- | ------- | ----------- |"]
+    lines = ["| Project | What it is | |", "| ------- | ---------- | - |"]
     lines += [row(r) for r in repos]
     return "\n".join(lines)
 

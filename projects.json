@@ -1,0 +1,50 @@
+{
+  "_readme": "Optional overrides for the project board in README.md. Keyed by repo name. Any field left out falls back to the repo's GitHub settings (About description, Website). New repos show up automatically without an entry here. Fields: name, line (what it is, who it's for), play (live link), learned (one sentence of product thinking, shown under the line when filled in).",
+  "tempo": {
+    "name": "tempo",
+    "line": "A retro LCD pomodoro timer for your phone, iPad or browser. No account, no streaks, just focus.",
+    "play": "https://datakyle.github.io/tempo/",
+    "learned": ""
+  },
+  "Coach-OS": {
+    "name": "Coach OS",
+    "line": "Practice plans, plays and a player course for a high school basketball team, all in one browser tab.",
+    "play": "https://datakyle.github.io/Coach-OS/",
+    "learned": ""
+  },
+  "miniracer": {
+    "name": "Daily lap",
+    "line": "A new two-minute racing track every day. Beat your best, then send your ghost to a friend.",
+    "play": "https://datakyle.github.io/miniracer/",
+    "learned": ""
+  },
+  "5-in-3": {
+    "name": "Name 3 in 5",
+    "line": "A pass-the-phone party game. Flip a card, name three things, five seconds. Go.",
+    "play": "https://datakyle.github.io/5-in-3/",
+    "learned": ""
+  },
+  "life-cal": {
+    "name": "Life in Weeks",
+    "line": "Your whole life in weekly squares. Color in the chapters. An open-source rebuild of lifecalendar.io.",
+    "play": "https://datakyle.github.io/life-cal/",
+    "learned": ""
+  },
+  "PB-Gen": {
+    "name": "PB Gen",
+    "line": "Americano pickleball schedules for your group: everyone rotates partners, faces new opponents, sits out fairly.",
+    "play": "https://datakyle.github.io/PB-Gen/",
+    "learned": ""
+  },
+  "world-cup-fantasy": {
+    "name": "World Cup Fantasy",
+    "line": "A World Cup 2026 fantasy league for a group of friends: snake draft, live leaderboard, group chat bot.",
+    "play": "https://wc-fantasy-2026.vercel.app",
+    "learned": ""
+  },
+  "PBTournamentScheduler": {
+    "name": "PB Tournament Scheduler",
+    "line": "The original 2024 pickleball round-robin scheduler. It grew up into PB Gen.",
+    "learned": ""
+  }
+}
