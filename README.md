@@ -1,8 +1,8 @@
 # Kyle Bautista
 
-Hey 👋 I build little games and tools that get people in the same room, off their phones, and laughing. Party games, trivia nights, fantasy leagues, daily word puzzles. If it makes a group hang easier or more fun, I'm probably tinkering with it.
+Hey 👋 I build little games and tools that I find useful and fun. My hope is that other people find them just as useful or fun. Party games, trivia nights, fantasy leagues, daily word puzzles, ice breakers, tournament generators. Tools that make a group hang easier or more fun brings me joy.
 
-By day I work in healthcare finance and analytics. By night I ship side projects with AI as the copilot. **People are the point. AI is the tool.**
+By day I work in healthcare finance and analytics. By night I ship side projects with AI as the copilot. 
 
 [![Website](https://img.shields.io/badge/Website-kylebautista.com-0d74ce?style=for-the-badge)](https://kylebautista.com)
 
